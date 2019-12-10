@@ -72,11 +72,11 @@ var userValidation = function(username, password,name) {
 /* 로그인 */
 router.post('/signin', function(req, res, next) {
 
-  POST /login ({id= username, pa= password})
-  if(id = usersCollection.id && crypto.pdkdf2(password,'10',100,64,'sha512',function(err,key) = usersCollection.cryptoPassword))
-  {
-    return true;
-  }
+  // POST /login ({id= username, pa= password})
+  // if(id = usersCollection.id && crypto.pdkdf2(password,'10',100,64,'sha512',function(err,key) = usersCollection.cryptoPassword))
+  // {
+  //   return true;
+  // }
   
   
 
