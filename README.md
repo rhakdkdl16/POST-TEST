@@ -12,7 +12,7 @@
 {
   'username':'hongildong',
   'password':'hong1234',
-  'name':'홍길동'
+  'name':'홍길동A'
 }
 </pre>
 
@@ -22,7 +22,7 @@
 {
   '_id':'1234567890',
   'username':'hongildong',
-  'name':'홍길동'
+  'name':'홍길동A'
 }
 </pre>
 #### 실패
@@ -31,3 +31,32 @@
   'message':'400 Bad Request'
 }
 </pre>
+
+
+### 로그인
+>[post] /users/signin
+
+전달값
+<pre>
+{
+  '_id':'1234567890',
+  '_password':'123456789abc',
+  'name':'홍길동'
+  }
+ </pre>
+ 
+ ### 결과
+ #### 성공
+ <pre>
+ {
+   'message':''
+ }
+ </pre>
+ 
+ #### 실패 
+ <pre>
+ {
+  'message':'400 Bad Request'
+ }
+ 
+ </pre>
